@@ -16,7 +16,3 @@ It is visible in the PDF above that it *looks* like it is already in proper csv 
 The first step in this notebook will be to use the PyPDF2 library to read the desired pages of the PDF into text format. After that, it will be a matter of understanding the text output in this particular example and designing substitutions using python's reguar expressions library (re) to rearrange the unstructured text into a csv format.
 
 Additionally, throughout this notebook, I will explain the idea behind the different methods I am using in the regular expressions library to make the approprite substitutions.
-
-## Diving Into the Code
-
-First thing to do is import the necessary libraries for the project, shown below. Additionally, after trying this for a while, I realized I wouldn't be able complete the rearrangement in a reasonable time unless I defined the set of County Names (the first column in the table in the PDF). While this is not necesssarily applicable to all text conversion situations, the distinct set (assigned to the list counties) is not too large, so it made sense for this application.
