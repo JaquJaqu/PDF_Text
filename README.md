@@ -15,4 +15,4 @@ It is visible in the PDF above that it *looks* like it is already in proper csv 
 
 The first step in this notebook will be to use the PyPDF2 library to read the desired pages of the PDF into text format. After that, it will be a matter of understanding the text output in this particular example and designing substitutions using python's reguar expressions library (re) to rearrange the unstructured text into a csv format.
 
-Additionally, throughout this notebook, I will explain the idea behind the different methods I am using in the regular expressions library to make the approprite substitutions. A great website that I used to test regular expression methods is <a href = 'https://regex101.com/', target = '_blank'>Regex101</a>
+Additionally, throughout this notebook, I will explain the idea behind the different methods I am using in the regular expressions library to make the approprite substitutions. A great website that I used to test regular expression methods is [Regex101](<https://regex101.com/>)
