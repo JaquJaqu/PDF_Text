@@ -1,6 +1,8 @@
 # PDF_Text
 # Data Collection: Tables from Academic Papers (PDF Form)
 
+<a href = "http://nbviewer.jupyter.org/github/aboomer07/PDF_Text/blob/master/MNDNR-Natural_Wild_Rice_Notebook.ipynb?flush_cache=False" target="_blank">Link to Notebook Viewer</a>
+
 ## Explanation of Notebook
 
 This notebook was a project for my internship with Earth Economics. I was asked to gather data about wild rice harvesting throughout the Native American tribes of Minnesota. Everything I found was in the form a report (PDF), either from the Minnesota Department of Natural Resources (MNDNR) or from one of the tribal agencies. The PDF below, had enough data that it made more sense to transfer it to text in Python and use regular expressions to separate it accordingly.
